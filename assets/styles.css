@@ -115,6 +115,15 @@
     color: #D96F6E;
 }
 
+.img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6 {
+        width: 220px;
+    }
+
 .main-link,
 .nav-title,
 .main-title{
@@ -145,31 +154,34 @@
         border-radius: 18px;
         flex-grow: 1;
     }
-    .img {
-        width: 260px;
-    }
+    
     .buttons {
         display: flex;
         justify-content: center;
-        min-width: 1259px;
+        min-width: 1500px;
         flex-grow: 1;
     }
     .nav {
-        min-width: 1259px;
+        min-width: 1500px;
     }
     .main {
-        min-width: 1259px;
+        min-width: 1500px;
     }
     .main-link {
         display: flex;
         justify-content: center;
     }
-
+.article {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 1500px;
+}
     .title {
-        min-width: 1259px;
+        min-width: 1500px;
     }
     .picture {
-        min-width: 1259px;
+        min-width: 1500px;
     }
 
 }
@@ -210,7 +222,12 @@
         min-width: 343px;
         max-width: 343px;
     }
-    .img {
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6 {
         width: 104px;
     }
 }
@@ -219,7 +236,8 @@
     .nav,
     .main,
     .title,
-    .picture {min-width: 775px;
+    .picture {min-width: 879px;
+        max-width: 879px;
     }
 
     .button1,
@@ -240,7 +258,12 @@
         display: flex;
         justify-content: center;
     }
-    .img {
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6 {
         width: 250px;
     }
     .nav {
