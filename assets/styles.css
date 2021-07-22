@@ -53,22 +53,17 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    border: green 1px solid;
 }
 .picture {
     display: flex;
     justify-content: center;
 }
-.class {
-    border:indigo 1px solid;
-}
 .section {
     display: flex;
-            border: violet 1px solid;
             flex-wrap: wrap;
             flex-direction: row;
             justify-content: center;
-        width: 600px;
+        width: 200px;
 }
 
 .text {
@@ -98,7 +93,6 @@
     flex-wrap: wrap;
 }
 .class1 {
-    border: teal 1px solid;
     width: 100%;
     text-align: center;
     line-height: 8px;
@@ -106,7 +100,6 @@
 .class2,
 .class3 {
     width: 49%;
-    border: solid 1px green;
     text-align: center;
     line-height: 0%;
 }
