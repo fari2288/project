@@ -15,7 +15,6 @@
 .button3 {
     color: white;
     background: linear-gradient(90deg, #F2D05C 0%, #F3A492 100%);
-    width: 123px;
     margin: 5px;
     border: none;
 }
@@ -123,7 +122,8 @@
     .button7 {
         height: 40px;
         border-radius: 18px;
-        width: 200px;
+        flex-grow: 1;
+
     }
     .img {
         width: 200px;
@@ -131,23 +131,20 @@
     .buttons {
         display: flex;
         justify-content: center;
-        min-width: 1500px;
+        min-width: 1259px;
+        flex-grow: 1;
     }
     .nav {
-        min-width: 1011px;
+        min-width: 1259px;
     }
     .main {
-        min-width: 1011px;
+        min-width: 1259px;
     }
     .title {
-        min-width: 1011px;
+        min-width: 1259px;
     }
     .picture {
-        min-width: 1011px;
-    }
-    .buttons {
-        min-width: 1500px;
-        max-width: 1500px;
+        min-width: 1259px;
     }
 
 }
