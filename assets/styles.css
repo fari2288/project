@@ -115,14 +115,6 @@
     color: #D96F6E;
 }
 
-.img1,
-    .img2,
-    .img3,
-    .img4,
-    .img5,
-    .img6 {
-        width: 220px;
-    }
 
 .main-link,
 .nav-title,
@@ -167,6 +159,15 @@
     .main {
         min-width: 1500px;
     }
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6 {
+        width: 220px;
+    }
+
     .main-link {
         display: flex;
         justify-content: center;
