@@ -89,6 +89,10 @@
     font-weight: 700;
     font-size: 20px;
 }
+.text-wishlist {
+    color: #333333;
+    font-weight: 700;
+}
 .class {
     display: flex;
     flex-wrap: wrap;
@@ -146,11 +150,12 @@
             width: 102px;
         }
 
-        
+
         .main-title {
             display: flex;
             justify-content: start;
             padding: 10px ;
+            flex-grow: 1;
         }
         
     .nav {
@@ -198,6 +203,7 @@ max-width: 343px;
     .img5,
     .img6 {
         width: 104px;
+        height: 130px;
     }
 }
 
@@ -246,6 +252,7 @@ max-width: 343px;
     .img5,
     .img6 {
         width: 280px;
+        height: 320px;
     }
     .nav {
         display: flex;
@@ -320,7 +327,9 @@ max-width: 343px;
     .img5,
     .img6 {
         width: 220px;
+        height: 280px;
     }
+    
 
     .main-link {
         display: flex;
