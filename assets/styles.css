@@ -59,6 +59,7 @@ a {
 .button5:hover,
 .button6:hover,
 .button7:hover {
+    color: blue;
     background: linear-gradient(90deg, #529dbb 0%, #839297 100%)
 }
 
@@ -146,7 +147,9 @@ a {
     flex-grow: 1;
 }
 
-
+.img7:hover,
+.img8:hover {
+}
 
 
 
