@@ -80,7 +80,6 @@
 .text-title {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
-    font-size: 31px;
 
 }
 .text-blue {
@@ -114,7 +113,9 @@
     text-align: center;
     line-height: 0%;
 }
-
+.books {
+    display: flex;
+}
 .link {
     color: #D96F6E;
 }
@@ -166,12 +167,7 @@
             width: 102px;
         }
 
-.books {
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-    width: 100%;
-}
+
         .main-title {
             display: flex;
             justify-content: start;
@@ -201,6 +197,10 @@ min-width: 343px;
 max-width: 343px;
 padding-left: 10px;
 }
+.book1 {
+    padding-left: 8px;
+}
+
     .main {
         min-width: 343px;
         max-width: 343px;
@@ -225,6 +225,7 @@ padding-left: 10px;
         flex-wrap: wrap;
         min-width: 343px;
         max-width: 343px;
+        padding-left: 10px;
 
     }
     .img1,
@@ -237,15 +238,20 @@ padding-left: 10px;
         height: 130px;
     }
     .img7 {
-        width: 124px;
         height: 180px;
+        width: 124px;
+        padding-bottom: 20px;
+        border: solid 1px blue;
     }
     .img8 {
-        width: 124px;
         height: 200px;
+        width: 124px;
+        border: blue 1px solid;
     }
+    
     .img9 {
         height: 200px;
+        border: solid 1px blue;
     }
 }
 
@@ -267,12 +273,14 @@ padding-left: 10px;
     justify-content: center;
     flex-wrap: wrap;
 }
+.main1 {
+    display: flex;
+    justify-content: center;
+}
 .books {
         display: flex;
-        justify-content: center;
-        width: 100%;
-        flex-grow: 1;
     }
+    
 
     .button1,
     .button2,
@@ -308,13 +316,12 @@ padding-left: 10px;
     .img7
     {
         height: 200px;
+        width:  100%;
+        padding-bottom: 20px;
     }
-    .img8 {
-    height: 200px;
-    padding-left: 50px;
+    
 
-}
-    .img9 {
+    .book3 {
         display: none;
     }
     .nav {
@@ -382,7 +389,9 @@ padding-left: 10px;
 .nav {
     min-width: 1500px;
 }
-
+.books {
+    display: flex;
+}
     .nav-title {display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -406,7 +415,7 @@ padding-left: 10px;
         height: 280px;
     }
     
-    .img9 {
+    .book3 {
         display: none;
     }
     .main1 {
