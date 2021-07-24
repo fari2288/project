@@ -82,7 +82,10 @@
     font-size: 31,25;
 }
 .text-blue {
+    font-family: 'Montserrat', sans-serif;
     color: #53889D;
+    padding-left: 10px;
+    font-size: 20px;
 }
 .text-bold {
     font-family: 'Montserrat', sans-serif;
@@ -112,6 +115,16 @@
 .link {
     color: #D96F6E;
 }
+.main1 {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+.books-title {
+    display: flex;
+    flex-grow: 1;
+}
+
 
 
 
@@ -150,15 +163,25 @@
             width: 102px;
         }
 
-
+.books {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    width: 100%;
+}
         .main-title {
             display: flex;
             justify-content: start;
             padding: 10px ;
             flex-grow: 1;
         }
-        
+        .article {
+        }
     .nav {
+        min-width: 343px;
+        max-width: 343px;
+    }
+    .main1 {
         min-width: 343px;
         max-width: 343px;
     }
@@ -167,10 +190,16 @@
 display: flex;
 justify-content: start;
 flex-grow: 1;
+padding-left: 10px;
+    }
+.books-title {
+    display: flex;
+justify-content: start;
+flex-grow: 1;
 min-width: 343px;
 max-width: 343px;
-    }
-
+padding-left: 10px;
+}
     .main {
         min-width: 343px;
         max-width: 343px;
@@ -179,6 +208,7 @@ max-width: 343px;
         display: flex;
         justify-content: start;
         padding: 10px;
+        min-width: 201px;
     }
     
     .title {
@@ -205,6 +235,17 @@ max-width: 343px;
         width: 104px;
         height: 130px;
     }
+    .img7 {
+        width: 124px;
+        height: 180px;
+    }
+    .img8 {
+        width: 124px;
+        height: 200px;
+    }
+    .img9 {
+        height: 200px;
+    }
 }
 
 
@@ -215,7 +256,8 @@ max-width: 343px;
     .main,
     .title,
     .picture,
-    .main-link {
+    .main-link,
+    .main1 {
         min-width: 911px;
         max-width: 911px;
     }
@@ -224,6 +266,13 @@ max-width: 343px;
     justify-content: center;
     flex-wrap: wrap;
 }
+.books {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-grow: 1;
+    }
+
     .button1,
     .button2,
     .button3,
@@ -254,6 +303,18 @@ max-width: 343px;
         width: 280px;
         height: 320px;
     }
+    .img7
+    {
+        height: 200px;
+    }
+    .img8 {
+    height: 200px;
+    padding-left: 50px;
+
+}
+    .img9 {
+        display: none;
+    }
     .nav {
         display: flex;
         justify-content: center;
@@ -269,11 +330,17 @@ max-width: 343px;
         justify-content: center;
         width: 100%;
     }
+    .books-title {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
     .main {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
     }
+    
 }
 
 
@@ -302,7 +369,8 @@ max-width: 343px;
 .title,
 .nav,
 .article,
-.main {
+.main,
+.main1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -320,17 +388,36 @@ max-width: 343px;
     .main {
         min-width: 1500px;
     }
+    .main1 {
+        min-width: 1500px;
+    }
     .img1,
     .img2,
     .img3,
     .img4,
     .img5,
-    .img6 {
+    .img6,
+    .img7,
+    .img8 {
         width: 220px;
         height: 280px;
     }
     
-
+    .img9 {
+        display: none;
+    }
+    .main1 {
+        display: flex;
+        flex-grow: 1;
+        width: 100%;
+        justify-content: center;
+    }
+    .books-title {
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        width: 100%;
+    }
     .main-link {
         display: flex;
         justify-content: center;
