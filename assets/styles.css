@@ -300,6 +300,7 @@ padding-left: 10px;
     .img6 {
         width: 280px;
         height: 320px;
+        font-size: 70px;
     }
     .img7
     {
@@ -355,6 +356,7 @@ padding-left: 10px;
         border-radius: 18px;
         height: 50px;
         width: 300px;
+        font-size: 20px;
     }
 
     .buttons {
