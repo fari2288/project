@@ -241,17 +241,14 @@ padding-left: 10px;
         height: 180px;
         width: 124px;
         padding-bottom: 20px;
-        border: solid 1px blue;
     }
     .img8 {
         height: 200px;
         width: 124px;
-        border: blue 1px solid;
     }
     
     .img9 {
         height: 200px;
-        border: solid 1px blue;
     }
 }
 
