@@ -46,6 +46,22 @@
 }
 
 
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.button1:hover,
+.button2:hover,
+.button3:hover,
+.button4:hover,
+.button5:hover,
+.button6:hover,
+.button7:hover {
+    background: linear-gradient(90deg, #529dbb 0%, #839297 100%)
+}
+
 .title,
 .nav,
 .main {
@@ -58,6 +74,7 @@
 .picture {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 .section {
     display: flex;
