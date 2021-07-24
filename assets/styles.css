@@ -136,6 +136,7 @@ a {
 }
 .link {
     color: #D96F6E;
+    text-decoration: underline;
 }
 .article {
     display: flex;
