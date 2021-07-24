@@ -71,6 +71,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #828282;
+    font-size: 10px;
 }
 .text-following {
     color: #4F4F4F;
@@ -79,6 +80,7 @@
 .text-title {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
+    font-size: 32px;
 }
 .text-blue {
     font-family: 'Montserrat', sans-serif;
