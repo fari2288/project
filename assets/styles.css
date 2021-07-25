@@ -415,7 +415,8 @@ padding-left: 10px;
     .main {
         min-width: 1500px;
     }
-    .article {
+    .article,
+    .main-images {
         min-width: 1500px;
     }
     .img1,
@@ -433,7 +434,8 @@ padding-left: 10px;
     .book3 {
         display: none;
     }
-    .article {
+    .article,
+    .main-images {
         display: flex;
         flex-grow: 1;
         width: 100%;
@@ -457,7 +459,8 @@ padding-left: 10px;
         justify-content: center;
         width: 100%;
     }
-.article {
+.article,
+.main-images {
     display: flex;
     justify-content: center;
     flex-grow: 1;
